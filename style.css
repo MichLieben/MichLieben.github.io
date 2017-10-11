@@ -1,29 +1,15 @@
-h1 {
+/*h1 {
   text-align: center;
-}
+}*/
 
 @import "bourbon";
-
-*, *:after, *:before {
-  box-sizing: border-box;
-}
-
-/*body {
-  @include display(flex);
-  @include align-content(center);
-  color: #353535;
-  min-height: 100vh;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  text-align: center;
-  background-color: lightgreen;
-}*/
 
 
 .wrap{
   position: relative;
   width: 80px;
   height: 80px;
+  display: inline-block;
   margin: 20px auto 30px auto;
   &:last-child {
     margin-bottom: 0;
@@ -82,3 +68,8 @@ h1 {
                 white 100%);
     }
 
+.divider{
+    width: 5px;
+    height: auto;
+    display: inline-block;
+}
